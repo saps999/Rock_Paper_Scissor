@@ -23,7 +23,6 @@ public class RockPaperScissorGame {
                 System.out.println("Computer choose PAPER.");
             } else System.out.println("Computer choose SCISSOR.");
 
-            //System.out.println("Computer choice: "+computerInput);
             if (a==computerInput){
                 System.out.println("Its a DRAW!!");
             } else if (a==0 && computerInput==2 || a==1 && computerInput==0 || a==2 && computerInput==1) {
